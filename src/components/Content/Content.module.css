@@ -1,0 +1,35 @@
+.section {
+  transition: 0.5s;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+}
+
+.dark {
+  background: #808080;
+}
+
+.img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 840px) {
+  .content {
+    flex-wrap: wrap;
+  }
+}

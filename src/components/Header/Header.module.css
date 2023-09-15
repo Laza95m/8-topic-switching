@@ -1,0 +1,33 @@
+.header {
+  background: #575757;
+  width: 100%;
+  max-height: 150px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.dark {
+  background: #000000;
+}
+
+.btn {
+  background: midnightblue;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background: steelblue;
+}
+
+.btn:active {
+  background: midnightblue;
+}
